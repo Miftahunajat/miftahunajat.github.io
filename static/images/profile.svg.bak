@@ -1,0 +1,10 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Miftahun Najat profile mark</title>
+  <desc id="desc">A geometric profile illustration for the portfolio homepage.</desc>
+  <rect width="512" height="512" rx="128" fill="#101827"/>
+  <circle cx="256" cy="196" r="86" fill="#E5E7EB"/>
+  <path d="M112 428C128 346 183 304 256 304C329 304 384 346 400 428H112Z" fill="#E5E7EB"/>
+  <path d="M152 100C195 57 286 42 356 94C316 85 276 93 236 120C203 142 177 150 152 100Z" fill="#14B8A6"/>
+  <circle cx="384" cy="144" r="36" fill="#38BDF8" opacity="0.9"/>
+  <circle cx="136" cy="356" r="28" fill="#22C55E" opacity="0.9"/>
+</svg>

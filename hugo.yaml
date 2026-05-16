@@ -1,0 +1,194 @@
+baseURL: "https://miftahunajat.github.io/"
+languageCode: "en-us"
+title: "Miftahun Najat"
+theme: "hugo-profile"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Miftahun Najat"
+  description: "Backend engineer building scalable ride-hailing, marketplace, travel, and platform systems."
+  favicon: "/images/profile.svg"
+  useBootstrapCDN: false
+  customCSS: true
+  animate: true
+
+  theme:
+    defaultTheme: "dark"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Miftahun Najat"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: true
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: "Miftahun Najat"
+    subtitle: "Backend Engineer · Ride-hailing, Marketplace, and Travel systems"
+    content: "I build backend services for high-throughput product systems, from transport ride-haling at Gojek, online travel agent at Tiket.com, Marketplace product listing on Bukalapak. My work focuses on reliability, latency, scalability, and measurable product impact."
+    image: /images/avatar.jpeg
+    bottomImage:
+      enable: false
+    roundImage: true
+    button:
+      enable: true
+      name: "Resume"
+      url: "/Resume.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/miftahunajat
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/miftahunajat
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/backend-systems.svg"
+    content: |-
+      I am a backend-focused software engineer based in Jakarta, Indonesia, specializing in reliable high-throughput systems. My work sits close to product-critical flows where performance, correctness, scalability, and operational readiness matter.
+
+      Across ride-hailing, online travel, marketplace, and platform products, I have worked on backend services, integrations, ranking and pricing flows, listing infrastructure, and service modernization. I like turning complex product requirements into dependable systems that teams can evolve safely.
+    skills:
+      enable: true
+      title: "Core technologies I work with:"
+      items:
+        - "Golang"
+        - "Java"
+        - "Spring Boot"
+        - "Ruby on Rails"
+        - "Kafka"
+        - "Redis"
+        - "PostgreSQL"
+        - "MongoDB"
+
+  experience:
+    enable: true
+    title: "Experience"
+    items:
+      - company: "Gojek"
+        companyUrl: "https://www.gojek.com"
+        jobs:
+          - name: "Software Development Engineer, Backend"
+            date: "Sep 2024 - Present"
+            content: |-
+              Building backend systems for high-volume transaction, decisioning, and reliability flows in Jakarta, Indonesia.
+
+              - Led high-throughput decisioning and user-signal initiatives that improved trust and increased bookings by 5%, supported by streaming pipelines processing about 20,000 messages per second.
+              - Re-architected a core transaction service into a unified platform handling about 18,000 transactions per minute, improving reliability and reducing cloud costs by $5,000 per month.
+              - Improved service reliability by reducing incidents by 50%, lowering latency by about 200ms, supporting on-call incident response, and coordinating cross-functional delivery for business-critical backend flows.
+
+      - company: "Tiket.com"
+        companyUrl: "https://www.tiket.com"
+        jobs:
+          - name: "Software Development Engineer II, Backend"
+            date: "Sep 2022 - Sep 2024"
+            content: |-
+              Building backend systems for travel and Things To Do products in Jakarta, Indonesia.
+
+              - Architected product and supplier systems for Attractions, including modular refundable options and third-party inventory onboarding, increasing conversion rate by 2%, expanding inventory by 10,000+ items, and increasing new-user engagement by 41%.
+              - Designed scalable seating and inventory-protection systems, supporting 200,000+ concurrent orders and detecting price-drop anomalies to prevent commission losses of up to IDR 50M.
+
+      - company: "Bukalapak"
+        companyUrl: "https://www.bukalapak.com"
+        jobs:
+          - name: "Software Development Engineer, Backend"
+            date: "Apr 2021 - Sep 2022"
+            content: |-
+              Worked on marketplace traffic growth, SEO infrastructure, page-builder capabilities, and backend service modernization.
+
+              - Improved marketplace acquisition by building SEO infrastructure across sitemap generation, redirection, and keyword pipelines, while pioneering a Layout Management and Page Builder platform that increased organic sessions by up to 240%.
+              - Modernized legacy backend services by redesigning database schemas and aligning service architecture with clean architecture principles, achieving 100% unit test coverage.
+
+      - company: "GDPLabs"
+        companyUrl: "https://www.gdplabs.id"
+        jobs:
+          - name: "Software Development Engineer"
+            date: "Oct 2020 - Apr 2021"
+            content: |-
+              Delivered full-stack product work for recruitment systems and SEO-focused recruitment portal improvements.
+
+              - Built and improved BCALife recruitment platforms, combining referral workflows, backend services, and server-side rendering to improve content management, SEO, and Google indexability.
+
+  education:
+    enable: false
+
+  achievements:
+    enable: false
+
+  projects:
+    enable: false
+
+  contact:
+    enable: true
+    title: "Get In Touch"
+    content: ""
+    btnName: "Email Me"
+    btnLink: "mailto:miftahunajat@gmail.com"
+
+  footer:
+    recentPosts:
+      enable: false
+    socialNetworks:
+      github: https://github.com/miftahunajat
+      linkedin: https://www.linkedin.com/in/miftahunajat
+
+  listPages:
+    disableFeaturedImage: true
+
+  singlePages:
+    socialShare: false
+    readTime:
+      enable: false
+    scrollprogress:
+      enable: false
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"

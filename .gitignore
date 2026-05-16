@@ -9,10 +9,12 @@
 # testing
 /coverage
 
-# next.js
+# generated static site output
 /.next/
 /out/
 /dist/
+/public/
+.hugo_build.lock
 
 # production
 /build
@@ -35,3 +37,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# superpowers local brainstorming state
+.superpowers/
