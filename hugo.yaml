@@ -25,7 +25,7 @@ markup:
 params:
   title: "Miftahun Najat"
   description: "Backend engineer building scalable ride-hailing, marketplace, travel, and platform systems."
-  favicon: "/images/profile.svg"
+  favicon: "/images/avatar.jpeg"
   useBootstrapCDN: false
   customCSS: true
   animate: true
@@ -41,6 +41,7 @@ params:
 
   navbar:
     align: ms-auto
+    brandLogo: "/images/avatar.jpeg"
     brandName: "Miftahun Najat"
     disableSearch: true
     stickyNavBar:
