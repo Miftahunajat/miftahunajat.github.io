@@ -41,8 +41,8 @@ params:
 
   navbar:
     align: ms-auto
-    brandLogo: "/images/avatar.jpeg"
-    brandName: "Miftahun Najat"
+    showBrandLogo: false
+    brandName: ""
     disableSearch: true
     stickyNavBar:
       enable: true

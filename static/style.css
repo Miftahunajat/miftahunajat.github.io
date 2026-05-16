@@ -10,3 +10,7 @@
   background: #0f172a;
   padding: 0;
 }
+
+footer img[alt="Footer logo"] {
+  display: none;
+}
